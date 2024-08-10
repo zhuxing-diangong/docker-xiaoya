@@ -120,7 +120,7 @@ fi
 cat <<-EOF
 
 数据保存位置：
-1. Docker卷（数据保存在: ${DOCKER_HOME}/volumes）
+1. Docker卷（数据保存在: ${DOCKER_HOME}/xiaoya）
 2. 服务部署目录（数据保存在: ${install_path}）
 EOF
 read -rp "请选择数据保存位置（默认为${data_location}）: " res
